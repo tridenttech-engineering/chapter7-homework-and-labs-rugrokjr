@@ -29,3 +29,6 @@ cout << "Sales " << years << " years from now: $" \
     << sales << endl;
     return 0;
 } //end of main function
+make clean
+make lab7-2
+./lab7-2

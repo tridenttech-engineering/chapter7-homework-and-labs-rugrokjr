@@ -35,3 +35,6 @@ cin >> bill;
 
 	return 0;
 }	//end of main function
+make clean
+make lab7-4
+./lab7-4

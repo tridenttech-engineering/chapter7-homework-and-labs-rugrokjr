@@ -25,3 +25,6 @@ cout << fixed << setprecision(1);
     cout << "Text sent is approximately: " << average << "a day" << endl;
     return 0;
 }   //end of main function
+make clean
+make lab7-1
+./lab7-1

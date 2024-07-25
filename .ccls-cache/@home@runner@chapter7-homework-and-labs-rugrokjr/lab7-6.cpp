@@ -34,3 +34,6 @@ cout << "Average price: $" << averagePrice << endl;
 	
 return 0;
 }	//end of main function
+make clean
+make lab7-6
+./lab7-6
