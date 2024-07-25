@@ -19,14 +19,14 @@ cin >> bill;
 		total += bill;
 		months += 1;
 		cout << "Bill for month " << months << ": ";
-		 cin >> bill
+		 cin >> bill;
 	} // end while
 
 	if (months >= 1)
 	{ 
 		average= total / months;
 		cout << fixed << setprecision(2);
-		cout << "Average electric bill for " << month << "months: $" << average << endl;"
+		cout << "Average electric bill for " << months << "months: $" << average << endl;
 	}
 	else
 		cout << "No electric bills entered." << endl;

@@ -24,13 +24,13 @@ while (price >= 0.0)
 } //end while
 
 if (numPrices > 0)
-	avgPrice = totalPrice / numPrices;
+	averagePrice = totalPrice / numPrices;
 else 
-	avgPrice = 0.0;
+	averagePrice = 0.0;
 // end if 
 
 cout << fixed << setprecision(2) << endl;
-cout << "Average price: $" << avgPrice << endl;
+cout << "Average price: $" << averagePrice << endl;
 	
 return 0;
 }	//end of main function
