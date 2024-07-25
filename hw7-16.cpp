@@ -17,7 +17,7 @@ int main()
 	cout << fixed;
 	while ( rate <= 0.2 )
 	{
-		rate = 0.1
+		rate = 0.1;
 		tip = bill * rate;
 		cout<< setprecision(0);
 		cout << "Tip rate: " << rate * 100 << "%  Tip: $" << tip <<endl;

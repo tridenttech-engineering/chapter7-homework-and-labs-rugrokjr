@@ -21,10 +21,7 @@ for (day = 1; day <= 7 ; day += 1)
     } //end for
 
 average = static_cast<double>(totaltexts) / (day - 1);
-cout << fixed << setprecision(1);
+cout << fixed << setprecision(0);
     cout << "Text sent is approximately: " << average << "a day" << endl;
     return 0;
 }   //end of main function
-make clean
-make lab7-1
-./lab7-1
